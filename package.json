@@ -1,29 +1,43 @@
 {
-    "name": "socket-routes",
-    "version": "0.0.5",
-    "description": "ExpressJs like routing for socket.io rooms",
-    "author": "Shani Mahadeva <satyashani@gmail.com>",
-    "contributors": [
-        "Shani Mahadeva <satyashani@gmail.com>"
-    ],
-    "main": "lib/server.js",
-    "repository": "satyashani/socket-routes",
-    "license": "MIT",
-    "dependencies": {
-        "async" : "2.0.1",
-        "path-to-regexp" : "1.5.3",
-        "parseurl": "~1.3.1",
-        "socket.io": "1.4.8"
-    },
-    "devDependencies": {},
-    "files": [
-        "session/",
-        "HISTORY.md",
-        "LICENSE",
-        "index.js"
-    ],
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "scripts": {}
+  "name": "socket-routes",
+  "version": "0.0.5",
+  "description": "ExpressJs like routing for socket.io rooms",
+  "author": "Shani Mahadeva <satyashani@gmail.com>",
+  "contributors": [
+    "Shani Mahadeva <satyashani@gmail.com>"
+  ],
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyashani/socket-routes.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "2.0.1",
+    "path-to-regexp": "1.5.3",
+    "parseurl": "~1.3.1",
+    "socket.io": "1.4.8"
+  },
+  "devDependencies": {},
+  "files": [
+    "session/",
+    "HISTORY.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/satyashani/socket-routes/issues"
+  },
+  "homepage": "https://github.com/satyashani/socket-routes#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "socket",
+    "routing"
+  ]
 }
