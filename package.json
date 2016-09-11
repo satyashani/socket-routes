@@ -1,6 +1,6 @@
 {
     "name": "socket-routes",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "ExpressJs like routing for socket.io rooms",
     "author": "Shani Mahadeva <satyashani@gmail.com>",
     "contributors": [
